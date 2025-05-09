@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ویژگی‌های دوره</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <style>
+      body {
+        font-family: sans-serif;
+        direction: rtl;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      .card {
+        width: 320px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      .title {
+        font-weight: bold;
+        margin-bottom: 15px;
+        font-size: 18px;
+        text-align: center;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+      li {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 0;
+      }
+      li span:first-child {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+      .progress-bar {
+        background-color: #eee;
+        border-radius: 10px;
+        overflow: hidden;
+        height: 10px;
+        margin-top: 10px;
+      }
+      .progress {
+        background-color: #4caf50;
+        width: 20%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="title">ویژگی‌های دوره</div>
+      <ul>
+        <li>
+          <span><i class="fas fa-user"></i> شرکت‌کنندگان:</span>
+          <span>۱۵ نفر</span>
+        </li>
+        <li>
+          <span><i class="fas fa-file-alt"></i> جلسات:</span> <span>۱۳</span>
+        </li>
+        <li>
+          <span><i class="fas fa-clock"></i> مدت دوره:</span>
+          <span>۶ ساعت ۱۱ دقیقه</span>
+        </li>
+        <li>
+          <span><i class="fas fa-level-up-alt"></i> سطح دوره:</span>
+          <span>مقدماتی تا پیشرفته</span>
+        </li>
+        <li>
+          <span><i class="fas fa-flag"></i> زبان:</span> <span>فارسی</span>
+        </li>
+        <li>
+          <span><i class="fas fa-sun"></i> نوع دوره:</span> <span>ویژه</span>
+        </li>
+        <li>
+          <span><i class="fas fa-heartbeat"></i> درصد پیشرفت دوره:</span>
+          <span>۲۰٪</span>
+        </li>
+      </ul>
+      <div class="progress-bar">
+        <div class="progress"></div>
+      </div>
+    </div>
+  </body>
+</html>
